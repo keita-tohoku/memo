@@ -1,2 +1,2 @@
 # test
-java.lang.RuntimeException: Nonzero exit value: 128　解決しないと･･･
+GPUプログラミングをやりたいプログラミング弱者の大学院生の戯言
