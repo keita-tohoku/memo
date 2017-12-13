@@ -1,0 +1,9 @@
+VMware使ってdebianでopenclを使いたい！！！  
+仮想マシンを3回くらい作ったりしてるんですけど、（闇）  
+毎回openclを入れるのに手間取る…  
+
+とりあえずclinfoできるくらいまで頑張ろう  
+
+https://software.intel.com/en-us/articles/sdk-for-opencl-gsg  
+
+これを参考にdriverを入れるところから、  
