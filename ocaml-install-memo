@@ -1,0 +1,33 @@
+今までOCamlのversion管理にopam1.2.2を使っていたのだが、最近MetaOCamlの最新versionが出たらしいので早速インストールしてみよう。
+
+
+しかしopam1.2.2ではswitchできないらしく、opamの更新が必要と。
+
+早速opam update; opam upgradeしてみると…うまくいかない
+
+
+apt-getでも2.0.0が入らず？？？って感じ
+
+
+仕方ないので公式のソースコードからビルドすることに。
+
+opam自体は入ったが、やっぱりupgradeできず
+
+なんかsystemのコンパイラ（確か4.04.1）がぶっ壊れてるみたいなのでreinstallしてからもう1回
+
+
+今度はコンパイラのversionが古いって……
+
+OCamlの4.07.1が必要らしい。
+
+
+仕方ないので公式のソースコードからビルドすることに（二回目）
+
+で改めてopam2.0.0を入れ直してdefaultがOCaml4.07.1になってたのでMetaOCamlにswitchしてみると…
+
+opamのsyntax変わったのかわからないけど opam switch create 4.07.1+BER でようやくうまくいった
+
+
+
+OCamlはやっぱり環境構築に難ありって感じですね。
+早くWindowsでもフルに扱えるようになってほしい。
